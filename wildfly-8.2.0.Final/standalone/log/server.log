@@ -1,0 +1,808 @@
+2016-05-09 18:36:47,328 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-05-09 18:36:48,468 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-05-09 18:36:48,609 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-05-09 18:36:48,625 DEBUG [org.jboss.as.config] (MSC service thread 1-5) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_91\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_91\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_91
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_91-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_91
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.91-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_91\lib\resources.jar;C:\Program Files\Java\jre1.8.0_91\lib\rt.jar;C:\Program Files\Java\jre1.8.0_91\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_91\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_91\lib\jce.jar;C:\Program Files\Java\jre1.8.0_91\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_91\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_91\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_91\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-05-09 18:36:48,625 DEBUG [org.jboss.as.config] (MSC service thread 1-5) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-05-09 18:36:54,359 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEnterprise.ear
+2016-05-09 18:36:54,453 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment FrontController.war
+2016-05-09 18:36:54,500 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEnterprise.ear in deployment directory. To trigger deployment create a file called AppEnterprise.ear.dodeploy
+2016-05-09 18:36:54,515 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB.jar in deployment directory. To trigger deployment create a file called ModuloEJB.jar.dodeploy
+2016-05-09 18:36:54,531 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-05-09 18:36:54,531 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-05-09 18:36:54,562 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontController.war in deployment directory. To trigger deployment create a file called FrontController.war.dodeploy
+2016-05-09 18:36:54,718 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-05-09 18:36:54,765 INFO  [org.xnio] (MSC service thread 1-4) XNIO version 3.3.0.Final
+2016-05-09 18:36:54,860 INFO  [org.xnio.nio] (MSC service thread 1-4) XNIO NIO Implementation Version 3.3.0.Final
+2016-05-09 18:36:54,937 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-05-09 18:36:54,968 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-05-09 18:36:55,015 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-09 18:36:55,015 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-05-09 18:36:55,047 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-05-09 18:36:55,078 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-05-09 18:36:55,124 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-05-09 18:36:55,156 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 6 core threads with 48 task threads based on your 3 available processors
+2016-05-09 18:36:55,296 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.1.0.Final starting
+2016-05-09 18:36:55,344 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-05-09 18:36:55,515 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-05-09 18:36:55,953 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-09 18:36:56,016 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2016-05-09 18:36:56,172 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-05-09 18:36:57,000 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2016-05-09 18:36:57,359 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-05-09 18:36:57,359 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.6.Final
+2016-05-09 18:36:57,391 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2016-05-09 18:36:57,609 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2016-05-09 18:36:57,781 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-05-09 18:36:58,156 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "FrontController.war" (runtime-name: "FrontController.war")
+2016-05-09 18:36:58,156 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-05-09 18:36:58,156 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-05-09 18:36:58,156 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "AppEnterprise.ear" (runtime-name: "AppEnterprise.ear")
+2016-05-09 18:36:58,595 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-09 18:36:58,688 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-05-09 18:36:59,781 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:00,016 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:00,140 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-05-09 18:37:00,296 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:00,688 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:00,984 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:01,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:01,671 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:01,906 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:01,969 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,141 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,297 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,344 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /ModuloWEB-WS
+2016-05-09 18:37:02,359 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,469 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,516 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,593 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,656 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,687 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,766 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,843 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:02,968 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,047 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,078 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,109 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,156 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,188 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,218 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,265 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015973: Starting subdeployment (runtime-name: "FrontController.war")
+2016-05-09 18:37:03,265 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015973: Starting subdeployment (runtime-name: "ModuloEJB.jar")
+2016-05-09 18:37:03,265 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,390 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,468 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,562 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,609 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,656 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,687 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,750 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,843 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,922 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:03,968 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,015 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,046 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,093 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,156 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,218 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,281 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,312 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,343 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,374 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,406 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,437 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,484 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,515 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:37:04,656 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:37:04,656 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:37:04,828 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment AppEnterprise.ear
+2016-05-09 18:37:04,984 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 5.1.3.Final
+2016-05-09 18:37:05,141 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment ModuloEJB.jar
+2016-05-09 18:37:05,187 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MeuPrimeiroBean in deployment unit subdeployment "ModuloEJB.jar" of deployment "AppEnterprise.ear" are as follows:
+
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:module/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean
+	java:module/MeuPrimeiroBean
+
+2016-05-09 18:37:05,281 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEnterprise.ear")]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.Validator is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".beanmanager]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InstanceName is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.deployment.unit.\"AppEnterprise.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"AppEnterprise.ear\".beanmanager]",
+    "jboss.persistenceunit.\"AppEnterprise.ear/FrontController.war#UsuarioPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB]"
+]}
+2016-05-09 18:37:05,500 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontController.war")]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"FrontController.war#UsuarioPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB]"],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"FrontController.war\".POST_MODULE"],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".beanmanager",
+            "jboss.deployment.unit.\"AppEnterprise.ear\".beanmanager",
+            "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean",
+            "jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB"
+        ]
+    }
+}
+2016-05-09 18:37:05,687 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "FrontController.war" (runtime-name : "FrontController.war")
+2016-05-09 18:37:05,703 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEnterprise.ear" (runtime-name : "AppEnterprise.ear")
+2016-05-09 18:37:05,718 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-05-09 18:37:05,718 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."AppEnterprise.ear".beanmanager (missing) dependents: [service jboss.deployment.unit."AppEnterprise.ear".weld.weldClassIntrospector] 
+      service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean (missing) dependents: [service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InstanceName, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ValidatorFactory, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InAppClientContainer, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.Validator] 
+      service jboss.naming.context.java.jdbc:derby:\\localhost:1527\meuDB (missing) dependents: [service jboss.persistenceunit."AppEnterprise.ear/FrontController.war#UsuarioPU".__FIRST_PHASE__, service jboss.persistenceunit."FrontController.war#UsuarioPU".__FIRST_PHASE__] 
+
+2016-05-09 18:37:05,891 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-09 18:37:05,922 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-05-09 18:37:05,937 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 19219ms - Started 339 of 412 services (12 services failed or missing dependencies, 108 services are lazy, passive or on-demand)
+2016-05-09 18:37:06,171 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015974: Stopped subdeployment (runtime-name: FrontController.war) in 64ms
+2016-05-09 18:37:06,187 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015974: Stopped subdeployment (runtime-name: ModuloEJB.jar) in 66ms
+2016-05-09 18:37:06,203 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment FrontController.war (runtime-name: FrontController.war) in 79ms
+2016-05-09 18:37:06,250 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment AppEnterprise.ear (runtime-name: AppEnterprise.ear) in 138ms
+2016-05-09 18:37:06,359 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "FrontController.war" (runtime-name: "FrontController.war")
+2016-05-09 18:37:06,422 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "AppEnterprise.ear" (runtime-name: "AppEnterprise.ear")
+2016-05-09 18:37:06,468 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.AppEnterprise.ModuloEJB (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".INSTALL] 
+      service jboss.persistenceunit."AppEnterprise.ear/FrontController.war#UsuarioPU".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."FrontController.war".POST_MODULE] 
+      service jboss.persistenceunit."FrontController.war#UsuarioPU".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.unit."FrontController.war".POST_MODULE] 
+
+2016-05-09 18:37:10,922 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found AppEnterprise.ear in deployment directory. To trigger deployment create a file called AppEnterprise.ear.dodeploy
+2016-05-09 18:37:10,937 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found ModuloEJB.jar in deployment directory. To trigger deployment create a file called ModuloEJB.jar.dodeploy
+2016-05-09 18:37:10,952 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-05-09 18:37:10,968 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found FrontController.war in deployment directory. To trigger deployment create a file called FrontController.war.dodeploy
+2016-05-09 18:42:45,470 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-05-09 18:42:45,672 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-05-09 18:42:45,750 INFO  [org.jboss.as] (MSC service thread 1-2) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-05-09 18:42:45,765 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-TLVBD3J
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.http.port = 8080
+	jboss.management.native.port = 9990
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-05-09 18:42:45,765 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-TLVBD3J -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.native.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-05-09 18:42:47,703 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEnterprise.ear
+2016-05-09 18:42:47,719 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment FrontController.war
+2016-05-09 18:42:47,719 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEnterprise.ear in deployment directory. To trigger deployment create a file called AppEnterprise.ear.dodeploy
+2016-05-09 18:42:47,719 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB.jar in deployment directory. To trigger deployment create a file called ModuloEJB.jar.dodeploy
+2016-05-09 18:42:47,734 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-05-09 18:42:47,734 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-05-09 18:42:47,734 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontController.war in deployment directory. To trigger deployment create a file called FrontController.war.dodeploy
+2016-05-09 18:42:47,781 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-05-09 18:42:47,812 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2016-05-09 18:42:47,843 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2016-05-09 18:42:48,047 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2016-05-09 18:42:48,063 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-05-09 18:42:48,078 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2016-05-09 18:42:48,094 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017502: Undertow 1.1.0.Final starting
+2016-05-09 18:42:48,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.0.Final starting
+2016-05-09 18:42:48,125 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-05-09 18:42:48,140 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2016-05-09 18:42:48,281 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2016-05-09 18:42:48,281 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2016-05-09 18:42:48,359 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 6 core threads with 48 task threads based on your 3 available processors
+2016-05-09 18:42:48,391 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2016-05-09 18:42:48,641 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-05-09 18:42:48,734 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-05-09 18:42:49,125 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-05-09 18:42:49,266 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2016-05-09 18:42:49,390 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+2016-05-09 18:42:49,408 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-05-09 18:42:49,875 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017525: Started server default-server.
+2016-05-09 18:42:49,953 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 4.0.6.Final
+2016-05-09 18:42:49,985 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017531: Host default-host starting
+2016-05-09 18:42:50,203 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-05-09 18:42:50,484 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEnterprise.ear" (runtime-name: "AppEnterprise.ear")
+2016-05-09 18:42:50,484 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-05-09 18:42:50,516 WARN  [org.jboss.as.messaging] (MSC service thread 1-4) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2016-05-09 18:42:50,516 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "FrontController.war" (runtime-name: "FrontController.war")
+2016-05-09 18:42:50,547 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-05-09 18:42:50,641 WARN  [jacorb.codeset] (MSC service thread 1-5) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+2016-05-09 18:42:50,953 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-05-09 18:42:51,047 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,734 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,750 INFO  [org.jboss.as.jacorb] (MSC service thread 1-5) JBAS016330: CORBA ORB Service started
+2016-05-09 18:42:51,860 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "FrontController.war")
+2016-05-09 18:42:51,891 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "ModuloEJB.jar")
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,985 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,000 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:51,891 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingpaging)
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,032 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,047 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,047 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:42:52,111 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2016-05-09 18:42:52,406 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:42:52,437 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+2016-05-09 18:42:52,437 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:42:52,671 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-05-09 18:42:52,828 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment AppEnterprise.ear
+2016-05-09 18:42:52,828 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2016-05-09 18:42:52,984 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2016-05-09 18:42:53,048 INFO  [org.jboss.as.jacorb] (MSC service thread 1-3) JBAS016328: CORBA Naming Service started
+2016-05-09 18:42:53,093 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
+2016-05-09 18:42:53,312 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2016-05-09 18:42:53,312 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2016-05-09 18:42:53,456 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2016-05-09 18:42:53,456 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2016-05-09 18:42:53,516 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment ModuloEJB.jar
+2016-05-09 18:42:53,594 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MeuPrimeiroBean in deployment unit subdeployment "ModuloEJB.jar" of deployment "AppEnterprise.ear" are as follows:
+
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:module/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean
+	java:module/MeuPrimeiroBean
+
+2016-05-09 18:42:53,953 INFO  [org.jboss.messaging] (MSC service thread 1-4) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2016-05-09 18:42:53,953 INFO  [org.jboss.messaging] (MSC service thread 1-2) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2016-05-09 18:42:54,171 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2016-05-09 18:42:54,171 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [6b6fe91e-034d-11e6-86d5-618552d53337] 
+2016-05-09 18:42:54,203 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2016-05-09 18:42:54,531 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 59) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2016-05-09 18:42:54,563 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2016-05-09 18:42:54,563 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2016-05-09 18:42:54,563 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.DLQ
+2016-05-09 18:42:54,563 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2016-05-09 18:42:54,609 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) JBAS010406: Registered connection factory java:/JmsXA
+2016-05-09 18:42:54,687 INFO  [org.hornetq.ra] (MSC service thread 1-6) HornetQ resource adaptor started
+2016-05-09 18:42:54,687 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-6) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2016-05-09 18:42:54,703 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2016-05-09 18:42:54,703 INFO  [org.jboss.as.messaging] (MSC service thread 1-5) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2016-05-09 18:42:54,921 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /ModuloWEB-WS
+2016-05-09 18:42:54,937 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEnterprise.ear")]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.persistenceunit.\"AppEnterprise.ear/FrontController.war#UsuarioPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InstanceName is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.deployment.unit.\"AppEnterprise.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"AppEnterprise.ear\".beanmanager]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.Validator is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ORB is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.HandleDelegate is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".beanmanager]"
+]}
+2016-05-09 18:42:54,937 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "FrontController.war")]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => ["jboss.persistenceunit.\"FrontController.war#UsuarioPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB]"],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => ["jboss.deployment.unit.\"FrontController.war\".POST_MODULE"],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".beanmanager",
+            "jboss.deployment.unit.\"AppEnterprise.ear\".beanmanager",
+            "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean",
+            "jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB"
+        ]
+    }
+}
+2016-05-09 18:42:55,031 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "FrontController.war" (runtime-name : "FrontController.war")
+2016-05-09 18:42:55,031 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "AppEnterprise.ear" (runtime-name : "AppEnterprise.ear")
+2016-05-09 18:42:55,031 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-05-09 18:42:55,047 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."AppEnterprise.ear".beanmanager (missing) dependents: [service jboss.deployment.unit."AppEnterprise.ear".weld.weldClassIntrospector] 
+      service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean (missing) dependents: [service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InstanceName, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ORB, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ValidatorFactory, service jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InAppClientContainer, JBAS014799: ... and 3 more ] 
+      service jboss.naming.context.java.jdbc:derby:\\localhost:1527\meuDB (missing) dependents: [service jboss.persistenceunit."AppEnterprise.ear/FrontController.war#UsuarioPU".__FIRST_PHASE__, service jboss.persistenceunit."FrontController.war#UsuarioPU".__FIRST_PHASE__] 
+
+2016-05-09 18:42:55,078 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-05-09 18:42:55,078 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-05-09 18:42:55,078 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 9890ms - Started 376 of 450 services (14 services failed or missing dependencies, 119 services are lazy, passive or on-demand)
+2016-05-09 18:42:55,484 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015974: Stopped subdeployment (runtime-name: FrontController.war) in 76ms
+2016-05-09 18:42:55,484 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: ModuloEJB.jar) in 79ms
+2016-05-09 18:42:55,516 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment FrontController.war (runtime-name: FrontController.war) in 106ms
+2016-05-09 18:42:55,531 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment AppEnterprise.ear (runtime-name: AppEnterprise.ear) in 134ms
+2016-05-09 18:42:55,719 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "FrontController.war" (runtime-name: "FrontController.war")
+2016-05-09 18:42:55,719 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "AppEnterprise.ear" (runtime-name: "AppEnterprise.ear")
+2016-05-09 18:42:55,719 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.AppEnterprise.ModuloEJB (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."ModuloEJB.jar".INSTALL] 
+      service jboss.persistenceunit."AppEnterprise.ear/FrontController.war#UsuarioPU".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.subunit."AppEnterprise.ear"."FrontController.war".POST_MODULE] 
+      service jboss.persistenceunit."FrontController.war#UsuarioPU".__FIRST_PHASE__ (missing) dependents: [service jboss.deployment.unit."FrontController.war".POST_MODULE] 
+
+2016-05-09 18:43:00,188 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEnterprise.ear in deployment directory. To trigger deployment create a file called AppEnterprise.ear.dodeploy
+2016-05-09 18:43:00,188 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB.jar in deployment directory. To trigger deployment create a file called ModuloEJB.jar.dodeploy
+2016-05-09 18:43:00,188 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-05-09 18:43:00,188 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found FrontController.war in deployment directory. To trigger deployment create a file called FrontController.war.dodeploy
+2016-05-09 18:43:00,188 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "AppEnterprise.ear" (runtime-name: "AppEnterprise.ear")
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,421 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,437 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,437 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,437 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/AppEnterprise.ear/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:43:00,485 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "ModuloEJB.jar")
+2016-05-09 18:43:00,485 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "FrontController.war")
+2016-05-09 18:43:00,563 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:43:00,656 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment AppEnterprise.ear
+2016-05-09 18:43:00,719 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) JBAS016002: Processing weld deployment ModuloEJB.jar
+2016-05-09 18:43:00,719 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-3) JNDI bindings for session bean named MeuPrimeiroBean in deployment unit subdeployment "ModuloEJB.jar" of deployment "AppEnterprise.ear" are as follows:
+
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:module/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:global/AppEnterprise/ModuloEJB/MeuPrimeiroBean
+	java:app/ModuloEJB/MeuPrimeiroBean
+	java:module/MeuPrimeiroBean
+
+2016-05-09 18:43:00,719 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEnterprise.ear")]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => [
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.HandleDelegate is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.persistenceunit.\"AppEnterprise.ear/FrontController.war#UsuarioPU\".__FIRST_PHASE__ is missing [jboss.naming.context.java.jdbc:derby:\\\\localhost:1527\\meuDB]",
+    "jboss.deployment.unit.\"AppEnterprise.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"AppEnterprise.ear\".beanmanager]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.Validator is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"AppEnterprise.ear\".\"ModuloEJB.jar\".beanmanager]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.ORB is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]",
+    "jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean.InstanceName is missing [jboss.naming.context.java.comp.AppEnterprise.ModuloEJB.MeuPrimeiroBean]"
+]}
+2016-05-09 18:43:00,766 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "AppEnterprise.ear" (runtime-name : "AppEnterprise.ear")
+2016-05-09 18:43:00,766 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014776:    Newly corrected services:
+      service jboss.naming.context.java.module.AppEnterprise.ModuloEJB (new available)
+      service jboss.persistenceunit."AppEnterprise.ear/FrontController.war#UsuarioPU".__FIRST_PHASE__ (new available)
+      service jboss.persistenceunit."FrontController.war#UsuarioPU".__FIRST_PHASE__ (no longer required)
+
+2016-05-09 18:51:47,531 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "FrontController.war" (runtime-name: "FrontController.war")
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derby.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,812 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_cs.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_de_DE.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_es.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_fr.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_hu.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_it.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ja_JP.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ko_KR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_pl.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_pt_BR.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_ru.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_zh_CN.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015960: Class Path entry derbyLocale_zh_TW.jar in /C:/Users/Rubens-Mackenzie/Desktop/LP3/wildfly-8.2.0.Final/standalone/deployments/FrontController.war/WEB-INF/lib/derbyclient.jar  does not point to a valid jar for a Class-Path reference.
+2016-05-09 18:51:47,844 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) JBAS011401: Read persistence.xml for UsuarioPU
+2016-05-09 18:51:47,922 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011409: Starting Persistence Unit (phase 1 of 2) Service 'FrontController.war#UsuarioPU'
+2016-05-09 18:51:47,938 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: UsuarioPU
+	...]
+2016-05-09 18:51:48,110 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 60) HHH000412: Hibernate Core {4.3.7.Final}
+2016-05-09 18:51:48,110 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000206: hibernate.properties not found
+2016-05-09 18:51:48,125 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000021: Bytecode provider name : javassist
+2016-05-09 18:51:48,250 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment FrontController.war
+2016-05-09 18:51:48,266 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named MeuPrimeiroBean in deployment unit deployment "FrontController.war" are as follows:
+
+	java:global/FrontController/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:app/FrontController/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:module/MeuPrimeiroBean!br.mack.ejb.MeuPrimeiroBean
+	java:global/FrontController/MeuPrimeiroBean
+	java:app/FrontController/MeuPrimeiroBean
+	java:module/MeuPrimeiroBean
+
+2016-05-09 18:51:48,641 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.AutoloadedDriver (version 10.10)
+2016-05-09 18:51:48,656 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010403: Deploying JDBC-compliant driver class org.apache.derby.jdbc.ClientDriver (version 10.10)
+2016-05-09 18:51:48,656 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: FrontController.war
+2016-05-09 18:51:48,734 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.2.6 (Final)
+2016-05-09 18:51:48,766 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010417: Started Driver service with driver-name = FrontController.war_org.apache.derby.jdbc.AutoloadedDriver_10_10
+2016-05-09 18:51:48,766 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016008: Starting weld service for deployment FrontController.war
+2016-05-09 18:51:48,766 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) JBAS010417: Started Driver service with driver-name = FrontController.war_org.apache.derby.jdbc.ClientDriver_10_10
+2016-05-09 18:51:49,141 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) JBAS011409: Starting Persistence Unit (phase 2 of 2) Service 'FrontController.war#UsuarioPU'
+2016-05-09 18:51:49,328 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2016-05-09 18:51:49,688 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-05-09 18:51:49,704 WARN  [org.hibernate.dialect.H2Dialect] (ServerService Thread Pool -- 60) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-05-09 18:51:49,844 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2016-05-09 18:51:50,328 WARN  [org.hibernate.internal.SessionFactoryImpl] (ServerService Thread Pool -- 60) HHH000008: JTASessionContext being used with JDBCTransactionFactory; auto-flush will not operate correctly with getCurrentSession()
+2016-05-09 18:51:51,562 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /FrontController
+2016-05-09 18:51:51,625 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "FrontController.war" (runtime-name : "FrontController.war")
+2016-05-09 18:51:58,156 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-2) HHH000204: Processing PersistenceUnitInfo [
+	name: UsuarioPU
+	...]
+2016-05-09 18:51:58,187 INFO  [org.hibernate.dialect.Dialect] (default task-2) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2016-05-09 18:51:58,187 WARN  [org.hibernate.dialect.H2Dialect] (default task-2) HHH000431: Unable to determine H2 database version, certain features may not work
+2016-05-09 18:51:58,203 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (default task-2) HHH000397: Using ASTQueryTranslatorFactory
+2016-05-09 18:51:58,515 WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-2) SQL Error: 42102, SQLState: 42S02
+2016-05-09 18:51:58,515 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] (default task-2) Table "TB_USUARIO" not found; SQL statement:
+select usuario0_.usuario_id as usuario_1_0_, usuario0_.nome as nome2_0_, usuario0_.sobrenome as sobrenom3_0_ from tb_usuario usuario0_ [42102-173]
+2016-05-09 18:51:58,515 SEVERE [mack.controllers.impl.IndexController] (default task-2) null: javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1763) [hibernate-entitymanager-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.jpa.spi.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1677) [hibernate-entitymanager-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:458) [hibernate-entitymanager-4.3.7.Final.jar:4.3.7.Final]
+	at mack.dao.usuario.UsuarioDAOJPAImpl.buscaTodosUsuarios(UsuarioDAOJPAImpl.java:79) [classes:]
+	at mack.controllers.impl.IndexController.execute(IndexController.java:18) [classes:]
+	at mack.servlets.FrontControllerServlet.processRequest(FrontControllerServlet.java:37) [classes:]
+	at mack.servlets.FrontControllerServlet.doGet(FrontControllerServlet.java:58) [classes:]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_77]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_77]
+Caused by: org.hibernate.exception.SQLGrammarException: could not prepare statement
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:123) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:196) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl.prepareQueryStatement(StatementPreparerImpl.java:160) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.prepareQueryStatement(Loader.java:1885) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1862) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1839) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:910) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:355) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2554) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2540) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2370) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2365) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:497) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:387) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:236) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1264) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:103) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.jpa.internal.QueryImpl.list(QueryImpl.java:573) [hibernate-entitymanager-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.jpa.internal.QueryImpl.getResultList(QueryImpl.java:449) [hibernate-entitymanager-4.3.7.Final.jar:4.3.7.Final]
+	... 32 more
+Caused by: org.h2.jdbc.JdbcSQLException: Table "TB_USUARIO" not found; SQL statement:
+select usuario0_.usuario_id as usuario_1_0_, usuario0_.nome as nome2_0_, usuario0_.sobrenome as sobrenom3_0_ from tb_usuario usuario0_ [42102-173]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:331)
+	at org.h2.message.DbException.get(DbException.java:171)
+	at org.h2.message.DbException.get(DbException.java:148)
+	at org.h2.command.Parser.readTableOrView(Parser.java:4864)
+	at org.h2.command.Parser.readTableFilter(Parser.java:1107)
+	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:1713)
+	at org.h2.command.Parser.parseSelectSimple(Parser.java:1821)
+	at org.h2.command.Parser.parseSelectSub(Parser.java:1707)
+	at org.h2.command.Parser.parseSelectUnion(Parser.java:1550)
+	at org.h2.command.Parser.parseSelect(Parser.java:1538)
+	at org.h2.command.Parser.parsePrepared(Parser.java:405)
+	at org.h2.command.Parser.parse(Parser.java:279)
+	at org.h2.command.Parser.parse(Parser.java:251)
+	at org.h2.command.Parser.prepareCommand(Parser.java:218)
+	at org.h2.engine.Session.prepareLocal(Session.java:428)
+	at org.h2.engine.Session.prepareCommand(Session.java:377)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1138)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:70)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:644)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.doPrepareStatement(BaseWrapperManagedConnection.java:745)
+	at org.jboss.jca.adapters.jdbc.BaseWrapperManagedConnection.prepareStatement(BaseWrapperManagedConnection.java:731)
+	at org.jboss.jca.adapters.jdbc.WrappedConnection.prepareStatement(WrappedConnection.java:405)
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$5.doPrepare(StatementPreparerImpl.java:162) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	at org.hibernate.engine.jdbc.internal.StatementPreparerImpl$StatementPreparationTemplate.prepareStatement(StatementPreparerImpl.java:186) [hibernate-core-4.3.7.Final.jar:4.3.7.Final]
+	... 49 more
+
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) java.lang.NullPointerException
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.spec.RequestDispatcherImpl.<init>(RequestDispatcherImpl.java:61)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.spec.ServletContextImpl.getRequestDispatcher(ServletContextImpl.java:274)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at mack.servlets.FrontControllerServlet.processRequest(FrontControllerServlet.java:39)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at mack.servlets.FrontControllerServlet.doGet(FrontControllerServlet.java:58)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76)
+2016-05-09 18:51:58,547 ERROR [stderr] (default task-2) 	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166)
+2016-05-09 18:51:58,625 ERROR [stderr] (default task-2) 	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197)
+2016-05-09 18:51:58,625 ERROR [stderr] (default task-2) 	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759)
+2016-05-09 18:51:58,625 ERROR [stderr] (default task-2) 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+2016-05-09 18:51:58,625 ERROR [stderr] (default task-2) 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+2016-05-09 18:51:58,625 ERROR [stderr] (default task-2) 	at java.lang.Thread.run(Thread.java:745)
+2016-05-09 19:07:12,570 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2016-05-09 19:07:12,637 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = FrontController.war_org.apache.derby.jdbc.AutoloadedDriver_10_10
+2016-05-09 19:07:12,691 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010418: Stopped Driver service with driver-name = FrontController.war_org.apache.derby.jdbc.ClientDriver_10_10
+2016-05-09 19:07:12,699 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /FrontController
+2016-05-09 19:07:12,705 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017535: Unregistered web context: /ModuloWEB-WS
+2016-05-09 19:07:12,764 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 64) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2016-05-09 19:07:12,974 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: FrontController.war) in 349ms
+2016-05-09 19:07:12,974 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: ModuloEJB.jar) in 351ms
+2016-05-09 19:07:12,987 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015974: Stopped subdeployment (runtime-name: ModuloWEB-WS.war) in 363ms
+2016-05-09 19:07:12,987 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment AppEE-WS.ear (runtime-name: AppEE-WS.ear) in 360ms
+2016-05-09 19:07:12,990 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment AppEnterprise.ear (runtime-name: AppEnterprise.ear) in 366ms
+2016-05-09 19:07:12,996 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017532: Host default-host stopping
+2016-05-09 19:07:13,096 INFO  [org.jboss.as.messaging] (MSC service thread 1-1) JBAS011605: Unbound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2016-05-09 19:07:13,098 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+2016-05-09 19:07:13,174 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011410: Stopping Persistence Unit (phase 2 of 2) Service 'FrontController.war#UsuarioPU'
+2016-05-09 19:07:13,218 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016009: Stopping weld service for deployment FrontController.war
+2016-05-09 19:07:13,440 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 69) JBAS011410: Stopping Persistence Unit (phase 1 of 2) Service 'FrontController.war#UsuarioPU'
+2016-05-09 19:07:13,444 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2016-05-09 19:07:13,452 WARN  [org.jboss.jca.core.connectionmanager.pool.strategy.OnePool] (ServerService Thread Pool -- 69) IJ000615: Destroying active connection in pool: ExampleDS (org.jboss.jca.adapters.jdbc.local.LocalManagedConnection@4a6e0a2a)
+2016-05-09 19:07:13,528 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = h2
+2016-05-09 19:07:13,547 INFO  [org.hornetq.ra] (ServerService Thread Pool -- 70) HQ151003: HornetQ resource adaptor stopped
+2016-05-09 19:07:13,611 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment FrontController.war (runtime-name: FrontController.war) in 987ms
+2016-05-09 19:07:14,037 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 70) HQ221002: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [6b6fe91e-034d-11e6-86d5-618552d53337] stopped
+2016-05-09 19:07:14,037 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017521: Undertow HTTP listener default suspending
+2016-05-09 19:07:14,051 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017520: Undertow HTTP listener default stopped, was bound to 127.0.0.1/127.0.0.1:8080
+2016-05-09 19:07:14,062 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017506: Undertow 1.1.0.Final stopping
+2016-05-09 19:07:14,142 INFO  [org.jboss.as] (MSC service thread 1-5) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 1514ms

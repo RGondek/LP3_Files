@@ -1,0 +1,1148 @@
+2016-04-18 18:47:08,059 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 18:47:09,888 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 18:47:10,028 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 18:47:10,044 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 18:47:10,060 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 18:47:24,497 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEE-WS.ear
+2016-04-18 18:47:24,529 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 18:47:24,543 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 18:47:24,778 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-04-18 18:47:24,841 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2016-04-18 18:47:24,950 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2016-04-18 18:47:24,981 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-04-18 18:47:24,996 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 18:47:24,996 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-18 18:47:24,996 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-04-18 18:47:25,028 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-04-18 18:47:25,528 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-04-18 18:47:25,622 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-04-18 18:47:25,684 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2016-04-18 18:47:25,841 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 18:47:26,106 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-18 18:47:26,934 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
+2016-04-18 18:47:29,216 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-04-18 18:47:29,607 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-04-18 18:47:29,731 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2016-04-18 18:47:29,825 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-04-18 18:47:29,919 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-04-18 18:47:30,294 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-04-18 18:47:30,950 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2016-04-18 18:47:31,137 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2016-04-18 18:47:31,215 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-04-18 18:47:31,497 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-04-18 18:47:31,529 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 18:47:31,918 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-18 18:47:32,106 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 18:47:34,871 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-04-18 18:47:37,997 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /ModuloWEB-WS
+2016-04-18 18:47:38,231 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 18:47:38,325 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-18 18:47:38,325 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-04-18 18:47:38,325 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 31110ms - Started 275 of 336 services (100 services are lazy, passive or on-demand)
+2016-04-18 19:07:18,247 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:07:20,575 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:07:20,856 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:07:20,872 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	http.nonProxyHosts = localhost,127.0.0.1,DESKTOP-TLVBD3J
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_77\jre
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.http.port = 8080
+	jboss.management.native.port = 9990
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_77\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final -c standalone-full.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:07:20,872 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms128m -Xmx512m -Dhttp.nonProxyHosts=localhost,127.0.0.1,DESKTOP-TLVBD3J -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.management.native.port=9990 -Djboss.http.port=8080 -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:07:39,747 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:07:39,747 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:07:39,794 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-04-18 19:07:40,028 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.0.Final
+2016-04-18 19:07:40,122 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.0.Final
+2016-04-18 19:07:40,293 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 52) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-18 19:07:40,293 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 51) JBAS013171: Activating Security Subsystem
+2016-04-18 19:07:40,388 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 54) JBAS015537: Activating WebServices Extension
+2016-04-18 19:07:40,559 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) JBAS011800: Activating Naming Subsystem
+2016-04-18 19:07:40,668 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 42) JBAS012615: Activated the following JSF Implementations: [main]
+2016-04-18 19:07:40,778 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:07:40,841 INFO  [org.jboss.as.jacorb] (ServerService Thread Pool -- 36) JBAS016300: Activating JacORB Subsystem
+2016-04-18 19:07:40,887 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 35) JBAS010280: Activating Infinispan subsystem.
+2016-04-18 19:07:41,341 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 34) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2016-04-18 19:07:41,841 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-04-18 19:07:43,590 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:07:43,606 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-04-18 19:07:44,887 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 30) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-18 19:07:45,060 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.6.Final
+2016-04-18 19:07:45,278 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2016-04-18 19:07:45,575 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 53) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-04-18 19:07:45,778 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-04-18 19:07:45,825 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-04-18 19:07:46,762 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2016-04-18 19:07:46,904 WARN  [jacorb.codeset] (MSC service thread 1-1) Warning - unknown codeset (Cp1252) - defaulting to ISO-8859-1
+2016-04-18 19:07:47,169 INFO  [org.jboss.as.jacorb] (MSC service thread 1-1) JBAS016330: CORBA ORB Service started
+2016-04-18 19:07:47,200 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2016-04-18 19:07:47,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017519: Undertow HTTP listener default listening on /127.0.0.1:8080
+2016-04-18 19:07:48,247 WARN  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011600: AIO wasn't located on this platform, it will fall back to using pure Java NIO. If your platform is Linux, install LibAIO to enable the AIO journal
+2016-04-18 19:07:48,560 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-04-18 19:07:48,637 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:07:49,107 INFO  [org.jboss.as.jacorb] (MSC service thread 1-2) JBAS016328: CORBA Naming Service started
+2016-04-18 19:07:49,247 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingjournal,bindingsDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingbindings,largeMessagesDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messaginglargemessages,pagingDirectory=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\messagingpaging)
+2016-04-18 19:07:49,262 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221006: Waiting to obtain live lock
+2016-04-18 19:07:49,575 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221013: Using NIO Journal
+2016-04-18 19:07:50,590 INFO  [io.netty.util.internal.PlatformDependent] (ServerService Thread Pool -- 56) Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+2016-04-18 19:07:50,840 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support CORE
+2016-04-18 19:07:51,387 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:07:51,450 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-18 19:07:51,622 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support AMQP
+2016-04-18 19:07:51,638 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221043: Adding protocol support STOMP
+2016-04-18 19:07:51,841 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2016-04-18 19:07:52,013 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221034: Waiting to obtain live lock
+2016-04-18 19:07:52,013 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221035: Live Server Obtained live lock
+2016-04-18 19:07:55,419 INFO  [org.jboss.messaging] (MSC service thread 1-2) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor acceptor
+2016-04-18 19:07:55,419 INFO  [org.jboss.messaging] (MSC service thread 1-2) JBAS011615: Registered HTTP upgrade for hornetq-remoting protocol handled by http-acceptor-throughput acceptor
+2016-04-18 19:07:55,606 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221007: Server is now live
+2016-04-18 19:07:55,606 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [6b6fe91e-034d-11e6-86d5-618552d53337] 
+2016-04-18 19:07:55,966 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 56) HQ221003: trying to deploy queue jms.queue.ExpiryQueue
+2016-04-18 19:07:55,981 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 56) JBAS011601: Bound messaging object to jndi name java:/jms/queue/ExpiryQueue
+2016-04-18 19:07:56,137 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 59) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+2016-04-18 19:07:56,169 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 57) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+2016-04-18 19:07:56,169 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 58) HQ221003: trying to deploy queue jms.queue.DLQ
+2016-04-18 19:07:56,169 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 58) JBAS011601: Bound messaging object to jndi name java:/jms/queue/DLQ
+2016-04-18 19:07:56,372 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010406: Registered connection factory java:/JmsXA
+2016-04-18 19:07:56,762 INFO  [org.hornetq.ra] (MSC service thread 1-2) HornetQ resource adaptor started
+2016-04-18 19:07:56,762 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-2) IJ020002: Deployed: file://RaActivatorhornetq-ra
+2016-04-18 19:07:56,778 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-2) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+2016-04-18 19:07:56,778 INFO  [org.jboss.as.messaging] (MSC service thread 1-2) JBAS011601: Bound messaging object to jndi name java:jboss/DefaultJMSConnectionFactory
+2016-04-18 19:07:58,246 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /ModuloWEB-WS
+2016-04-18 19:07:58,606 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 31) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 19:07:58,720 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-18 19:07:58,720 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-04-18 19:07:58,720 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 41880ms - Started 312 of 372 services (111 services are lazy, passive or on-demand)
+2016-04-18 19:08:00,778 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2016-04-18 19:08:14,325 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:08:15,184 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:08:15,356 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:08:15,372 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:08:15,372 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:08:23,731 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:08:23,731 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:08:23,793 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-04-18 19:08:23,856 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2016-04-18 19:08:23,950 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2016-04-18 19:08:24,012 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-04-18 19:08:24,075 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:08:24,075 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-18 19:08:24,075 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-04-18 19:08:24,137 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-04-18 19:08:24,762 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-04-18 19:08:24,981 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-04-18 19:08:25,169 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2016-04-18 19:08:25,278 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:08:26,668 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-18 19:08:27,872 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-04-18 19:08:27,887 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-04-18 19:08:28,403 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
+2016-04-18 19:08:28,465 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-04-18 19:08:29,309 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /ModuloWEB-WS
+2016-04-18 19:08:29,418 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2016-04-18 19:08:29,544 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-04-18 19:08:29,607 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-04-18 19:08:29,763 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2016-04-18 19:08:29,950 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-04-18 19:08:30,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:08:30,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015974: Stopped subdeployment (runtime-name: ModuloWEB-WS.war) in 898ms
+2016-04-18 19:08:30,185 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment AppEE-WS.ear (runtime-name: AppEE-WS.ear) in 903ms
+2016-04-18 19:08:30,200 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:08:30,216 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:08:30,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2016-04-18 19:08:30,747 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2016-04-18 19:08:30,763 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017534: Registered web context: /ModuloWEB-WS
+2016-04-18 19:08:30,856 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-1) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:137)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.8.0_77]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_77]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:113)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:134)
+	... 5 more
+
+2016-04-18 19:08:31,278 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:258) [wildfly-server-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.8.0_77]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_77]
+Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use: bind
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:156)
+	at org.jboss.as.server.mgmt.UndertowHttpManagementService.start(UndertowHttpManagementService.java:224) [wildfly-server-8.2.0.Final.jar:8.2.0.Final]
+	... 5 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.jboss.as.domain.http.server.ManagementHttpServer.start(ManagementHttpServer.java:135)
+	... 6 more
+
+2016-04-18 19:08:31,669 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018565: Replaced deployment "AppEE-WS.ear" with deployment "AppEE-WS.ear"
+2016-04-18 19:08:32,231 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:08:32,793 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-18 19:08:34,590 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.serverManagement.controller.management.http" => "org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+    Caused by: java.lang.RuntimeException: java.net.BindException: Address already in use: bind
+    Caused by: java.net.BindException: Address already in use: bind"}}
+2016-04-18 19:08:34,669 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEE-WS.ear")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => [
+        "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloWEB-WS.war\".INSTALL",
+        "jboss.deployment.unit.\"AppEE-WS.ear\".INSTALL"
+    ],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:08:34,872 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:08:34,981 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+2016-04-18 19:08:35,028 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.BindException: Address already in use: bind"}}
+2016-04-18 19:08:35,434 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 19:08:35,450 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+
+2016-04-18 19:08:35,856 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2016-04-18 19:08:36,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015974: Stopped subdeployment (runtime-name: ModuloWEB-WS.war) in 199ms
+2016-04-18 19:08:36,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment AppEE-WS.ear (runtime-name: AppEE-WS.ear) in 208ms
+2016-04-18 19:08:36,153 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:08:36,153 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.AppEE-WS.ModuloWEB-WS (missing) dependents: [service jboss.deployment.subunit."AppEE-WS.ear"."ModuloWEB-WS.war".INSTALL] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+
+2016-04-18 19:08:36,418 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015964: Http management interface is not enabled
+2016-04-18 19:08:36,418 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015954: Admin console is not enabled
+2016-04-18 19:08:36,418 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 22828ms - Started 168 of 230 services (7 services failed or missing dependencies, 82 services are lazy, passive or on-demand)
+2016-04-18 19:08:40,606 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:08:40,622 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:09:02,481 ERROR [org.jboss.remoting.remote.connection] (XNIO-1 I/O-1) JBREM000200: Remote connection failed: java.io.IOException: Uma conexão estabelecida foi anulada pelo software no computador host
+2016-04-18 19:09:11,091 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:09:11,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:09:11,184 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015973: Starting subdeployment (runtime-name: "ModuloEJB-WS.jar")
+2016-04-18 19:09:11,481 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment AppEE-WS.ear
+2016-04-18 19:09:11,793 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment ModuloWEB-WS.war
+2016-04-18 19:09:11,809 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016002: Processing weld deployment ModuloEJB-WS.jar
+2016-04-18 19:09:11,872 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UsuarioRestService in deployment unit subdeployment "ModuloEJB-WS.jar" of deployment "AppEE-WS.ear" are as follows:
+
+	java:global/AppEE-WS/ModuloEJB-WS/UsuarioRestService!br.mack.ejb.services.UsuarioRestService
+	java:app/ModuloEJB-WS/UsuarioRestService!br.mack.ejb.services.UsuarioRestService
+	java:module/UsuarioRestService!br.mack.ejb.services.UsuarioRestService
+	java:global/AppEE-WS/ModuloEJB-WS/UsuarioRestService
+	java:app/ModuloEJB-WS/UsuarioRestService
+	java:module/UsuarioRestService
+
+2016-04-18 19:09:11,965 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UsuarioBean in deployment unit subdeployment "ModuloEJB-WS.jar" of deployment "AppEE-WS.ear" are as follows:
+
+	java:global/AppEE-WS/ModuloEJB-WS/UsuarioBean!br.mack.ejb.beans.UsuarioBean
+	java:app/ModuloEJB-WS/UsuarioBean!br.mack.ejb.beans.UsuarioBean
+	java:module/UsuarioBean!br.mack.ejb.beans.UsuarioBean
+	java:global/AppEE-WS/ModuloEJB-WS/UsuarioBean
+	java:app/ModuloEJB-WS/UsuarioBean
+	java:module/UsuarioBean
+
+2016-04-18 19:09:11,997 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-2) JNDI bindings for session bean named UsuarioService in deployment unit subdeployment "ModuloEJB-WS.jar" of deployment "AppEE-WS.ear" are as follows:
+
+	java:global/AppEE-WS/ModuloEJB-WS/UsuarioService!br.mack.ejb.services.UsuarioService
+	java:app/ModuloEJB-WS/UsuarioService!br.mack.ejb.services.UsuarioService
+	java:module/UsuarioService!br.mack.ejb.services.UsuarioService
+
+2016-04-18 19:09:12,028 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 2) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEE-WS.ear")]) - failure description: {
+    "JBAS014771: Services with missing/unavailable dependencies" => [
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.Validator is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.Validator is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.InstanceName is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.InstanceName is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.Validator is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.InAppClientContainer is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.InstanceName is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService]",
+        "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloEJB-WS.jar\".weld.weldClassIntrospector is missing [jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloEJB-WS.jar\".beanmanager]",
+        "jboss.deployment.unit.\"AppEE-WS.ear\".weld.weldClassIntrospector is missing [jboss.deployment.unit.\"AppEE-WS.ear\".beanmanager]",
+        "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.ValidatorFactory is missing [jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService]"
+    ],
+    "JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+        "Services that were unable to start:" => [
+            "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloEJB-WS.jar\".INSTALL",
+            "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloWEB-WS.war\".INSTALL",
+            "jboss.deployment.unit.\"AppEE-WS.ear\".INSTALL"
+        ],
+        "Services that may be the cause:" => [
+            "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloEJB-WS.jar\".beanmanager",
+            "jboss.deployment.unit.\"AppEE-WS.ear\".beanmanager",
+            "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean",
+            "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService",
+            "jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService",
+            "jboss.remoting.remotingConnectorInfoService.http-remoting-connector"
+        ]
+    }
+}
+2016-04-18 19:09:12,372 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 19:09:12,403 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.deployment.subunit."AppEE-WS.ear"."ModuloEJB-WS.jar".beanmanager (missing) dependents: [service jboss.deployment.subunit."AppEE-WS.ear"."ModuloEJB-WS.jar".weld.weldClassIntrospector] 
+      service jboss.deployment.unit."AppEE-WS.ear".beanmanager (missing) dependents: [service jboss.deployment.unit."AppEE-WS.ear".weld.weldClassIntrospector] 
+      service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean (missing) dependents: [service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.InAppClientContainer, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.InstanceName, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.Validator, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioBean.ValidatorFactory] 
+      service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService (missing) dependents: [service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.InstanceName, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.InAppClientContainer, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.ValidatorFactory, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioRestService.Validator] 
+      service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService (missing) dependents: [service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.Validator, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.ValidatorFactory, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.InAppClientContainer, service jboss.naming.context.java.comp.AppEE-WS.ModuloEJB-WS.UsuarioService.InstanceName] 
+JBAS014776:    Newly corrected services:
+      service jboss.naming.context.java.module.AppEE-WS.ModuloWEB-WS (new available)
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+      service jboss.serverManagement.controller.management.http: org.jboss.msc.service.StartException in service jboss.serverManagement.controller.management.http: JBAS015811: Failed to start the http-interface service
+
+2016-04-18 19:12:04,497 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017535: Unregistered web context: /ModuloWEB-WS
+2016-04-18 19:12:46,622 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:12:47,387 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:12:47,544 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:12:47,559 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:12:47,559 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:13:12,809 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:13:13,372 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:13:13,512 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:13:13,528 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:13:13,528 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:13:24,356 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEE-WS.ear
+2016-04-18 19:13:24,465 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:13:24,513 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:13:24,638 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-04-18 19:13:24,700 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2016-04-18 19:13:24,856 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2016-04-18 19:13:24,903 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-04-18 19:13:24,918 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:13:24,918 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-18 19:13:24,918 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-04-18 19:13:24,934 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-04-18 19:13:25,606 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-04-18 19:13:25,731 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-04-18 19:13:25,778 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2016-04-18 19:13:25,934 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:13:26,294 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-18 19:13:28,731 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-04-18 19:13:28,747 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
+2016-04-18 19:13:28,825 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-2) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-04-18 19:13:29,356 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-04-18 19:13:29,888 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
+2016-04-18 19:13:29,919 INFO  [org.jboss.as.naming] (MSC service thread 1-1) JBAS011802: Starting Naming Service
+2016-04-18 19:13:29,981 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-04-18 19:13:30,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:13:30,075 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-04-18 19:13:30,294 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
+2016-04-18 19:13:30,528 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2016-04-18 19:13:30,559 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:137)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.8.0_77]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_77]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:113)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:134)
+	... 5 more
+
+2016-04-18 19:13:30,903 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:13:31,825 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-18 19:13:33,622 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEE-WS.ear")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => [
+        "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloWEB-WS.war\".INSTALL",
+        "jboss.deployment.unit.\"AppEE-WS.ear\".INSTALL"
+    ],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:13:33,653 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+2016-04-18 19:13:33,731 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:13:33,778 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.BindException: Address already in use: bind"}}
+2016-04-18 19:13:33,966 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 19:13:34,122 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2016-04-18 19:13:34,325 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-18 19:13:34,340 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-04-18 19:13:34,340 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 22078ms - Started 215 of 276 services (8 services failed or missing dependencies, 86 services are lazy, passive or on-demand)
+2016-04-18 19:13:34,809 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2016-04-18 19:13:34,934 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015974: Stopped subdeployment (runtime-name: ModuloWEB-WS.war) in 355ms
+2016-04-18 19:13:34,950 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015877: Stopped deployment AppEE-WS.ear (runtime-name: AppEE-WS.ear) in 379ms
+2016-04-18 19:13:35,153 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018558: Undeployed "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:13:35,169 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 2) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.AppEE-WS.ModuloWEB-WS (missing) dependents: [service jboss.deployment.subunit."AppEE-WS.ear"."ModuloWEB-WS.war".INSTALL] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2016-04-18 19:13:39,294 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:13:39,325 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:24:02,278 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:24:02,872 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:24:03,012 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:24:03,028 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:24:03,028 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:24:11,075 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEE-WS.ear
+2016-04-18 19:25:25,997 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2016-04-18 19:25:26,684 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2016-04-18 19:25:26,872 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2016-04-18 19:25:26,887 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jre1.8.0_77\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jre1.8.0_77
+	java.io.tmpdir = C:\Users\RUBENS~1\AppData\Local\Temp\
+	java.library.path = C:\ProgramData\Oracle\Java\javapath;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_77-b03
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_77
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.77-b03
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	jboss.host.name = desktop-tlvbd3j
+	jboss.modules.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-tlvbd3j
+	jboss.qualified.host.name = desktop-tlvbd3j
+	jboss.server.base.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone
+	jboss.server.config.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log
+	jboss.server.name = desktop-tlvbd3j
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes
+	sun.boot.library.path = C:\Program Files\Java\jre1.8.0_77\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\jboss-modules.jar -mp C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = BR
+	user.dir = C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\bin
+	user.home = C:\Users\Rubens-Mackenzie
+	user.language = pt
+	user.name = Rubens-Mackenzie
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2016-04-18 19:25:26,887 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\configuration/logging.properties 
+2016-04-18 19:25:34,106 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015014: Re-attempting failed deployment AppEE-WS.ear
+2016-04-18 19:25:34,200 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:25:34,216 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
+2016-04-18 19:25:34,512 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2016-04-18 19:25:34,746 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.0.Final
+2016-04-18 19:25:34,809 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.0.Final
+2016-04-18 19:25:35,247 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2016-04-18 19:25:35,262 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:25:35,262 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2016-04-18 19:25:35,262 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2016-04-18 19:25:35,325 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2016-04-18 19:25:35,903 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2016-04-18 19:25:36,028 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2016-04-18 19:25:36,106 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.6.Final
+2016-04-18 19:25:36,263 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 2 core threads with 16 task threads based on your 1 available processors
+2016-04-18 19:25:36,372 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
+2016-04-18 19:25:36,528 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2016-04-18 19:25:36,575 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-1) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2016-04-18 19:25:38,872 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013170: Current PicketBox version=4.0.21.Final
+2016-04-18 19:25:39,341 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final/welcome-content
+2016-04-18 19:25:39,577 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+2016-04-18 19:25:41,138 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2016-04-18 19:25:41,341 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2016-04-18 19:25:41,966 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) JBAS015012: Started FileSystemDeploymentService for directory C:\Users\Rubens-Mackenzie\Desktop\LP3\wildfly-8.2.0.Final\standalone\deployments
+2016-04-18 19:25:42,028 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:25:42,075 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017525: Started server default-server.
+2016-04-18 19:25:42,387 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017531: Host default-host starting
+2016-04-18 19:25:42,434 ERROR [org.jboss.msc.service.fail] (MSC service thread 1-2) MSC000001: Failed to start service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:137)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1948) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1881) [jboss-msc-1.2.2.Final.jar:1.2.2.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [rt.jar:1.8.0_77]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [rt.jar:1.8.0_77]
+	at java.lang.Thread.run(Unknown Source) [rt.jar:1.8.0_77]
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.Net.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source) [rt.jar:1.8.0_77]
+	at org.xnio.nio.NioXnioWorker.createTcpConnectionServer(NioXnioWorker.java:182)
+	at org.xnio.XnioWorker.createStreamConnectionServer(XnioWorker.java:243)
+	at org.wildfly.extension.undertow.HttpListenerService.startListening(HttpListenerService.java:113)
+	at org.wildfly.extension.undertow.ListenerService.start(ListenerService.java:134)
+	... 5 more
+
+2016-04-18 19:25:42,575 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015973: Starting subdeployment (runtime-name: "ModuloWEB-WS.war")
+2016-04-18 19:25:42,920 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2016-04-18 19:25:44,169 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("deploy") failed - address: ([("deployment" => "AppEE-WS.ear")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => [
+        "jboss.deployment.subunit.\"AppEE-WS.ear\".\"ModuloWEB-WS.war\".INSTALL",
+        "jboss.deployment.unit.\"AppEE-WS.ear\".INSTALL"
+    ],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:25:44,450 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([("subsystem" => "webservices")]) - failure description: {"JBAS014879: One or more services were unable to start due to one or more indirect dependencies not being available." => {
+    "Services that were unable to start:" => ["jboss.ws.config"],
+    "Services that may be the cause:" => ["jboss.remoting.remotingConnectorInfoService.http-remoting-connector"]
+}}
+2016-04-18 19:25:44,481 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "undertow"),
+    ("server" => "default-server"),
+    ("http-listener" => "default")
+]) - failure description: {"JBAS014671: Failed services" => {"jboss.undertow.listener.default" => "org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+    Caused by: java.net.BindException: Address already in use: bind"}}
+2016-04-18 19:25:44,528 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "ejb3"),
+    ("service" => "remote")
+]) - failure description: {"JBAS014771: Services with missing/unavailable dependencies" => ["jboss.ejb3.connector is missing [jboss.remoting.remotingConnectorInfoService.http-remoting-connector]"]}
+2016-04-18 19:25:44,794 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "AppEE-WS.ear" (runtime-name : "AppEE-WS.ear")
+2016-04-18 19:25:44,809 INFO  [org.jboss.as.controller] (Controller Boot Thread) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.remoting.remotingConnectorInfoService.http-remoting-connector (missing) dependents: [service jboss.ejb3.connector] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2016-04-18 19:25:45,059 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2016-04-18 19:25:45,059 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2016-04-18 19:25:45,075 ERROR [org.jboss.as] (Controller Boot Thread) JBAS015875: WildFly 8.2.0.Final "Tweek" started (with errors) in 19796ms - Started 218 of 276 services (5 services failed or missing dependencies, 86 services are lazy, passive or on-demand)
+2016-04-18 19:25:45,465 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.1.3.Final
+2016-04-18 19:25:45,622 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015974: Stopped subdeployment (runtime-name: ModuloWEB-WS.war) in 289ms
+2016-04-18 19:25:45,622 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment AppEE-WS.ear (runtime-name: AppEE-WS.ear) in 300ms
+2016-04-18 19:25:45,841 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) JBAS018558: Undeployed "AppEE-WS.ear" (runtime-name: "AppEE-WS.ear")
+2016-04-18 19:25:45,856 INFO  [org.jboss.as.controller] (DeploymentScanner-threads - 1) JBAS014774: Service status report
+JBAS014775:    New missing/unsatisfied dependencies:
+      service jboss.naming.context.java.module.AppEE-WS.ModuloWEB-WS (missing) dependents: [service jboss.deployment.subunit."AppEE-WS.ear"."ModuloWEB-WS.war".INSTALL] 
+JBAS014777:   Services which failed to start:      service jboss.undertow.listener.default: org.jboss.msc.service.StartException in service jboss.undertow.listener.default: Could not start http listener
+
+2016-04-18 19:25:50,028 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found AppEE-WS.ear in deployment directory. To trigger deployment create a file called AppEE-WS.ear.dodeploy
+2016-04-18 19:25:50,044 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) JBAS015003: Found ModuloEJB-WS.jar in deployment directory. To trigger deployment create a file called ModuloEJB-WS.jar.dodeploy
