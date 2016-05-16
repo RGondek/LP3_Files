@@ -33,8 +33,8 @@ public class MeuPrimeiroBean {
     public void reportaAtivacao() {
         System.out.println("Report de ativacao de Bean #" + this.id);
     }
-
     @PrePassivate
+
     public void reportaPassivacao() {
         System.out.println("Report de passivacao do Bean #" + this.id);
     }
